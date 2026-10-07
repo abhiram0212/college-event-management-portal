@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Sports event illustration">
+  <defs>
+    <linearGradient id="bg3" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#e5f9e6"/>
+      <stop offset="100%" stop-color="#dceeff"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg3)"/>
+  <rect x="115" y="145" width="570" height="280" rx="28" fill="#104b35"/>
+  <circle cx="250" cy="250" r="52" fill="#fff7d6"/>
+  <path d="M330 208H560" stroke="#fff7d6" stroke-width="18" stroke-linecap="round"/>
+  <path d="M340 288H580" stroke="#fff7d6" stroke-width="18" stroke-linecap="round"/>
+  <path d="M360 220L440 300L520 220" fill="none" stroke="#7ee6ab" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

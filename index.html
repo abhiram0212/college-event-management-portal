@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>College Event Management Portal</title>
+    <meta
+      name="description"
+      content="College Event Management Portal for managing events, schedules, registration, and details."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <div class="brand-block">
+          <div class="brand-icon">CE</div>
+          <div>
+            <p class="brand-name">College Event Portal</p>
+            <p class="brand-tag">North Valley Institute of Technology</p>
+          </div>
+        </div>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#home">Home</a>
+          <a href="#events">Events</a>
+          <a href="#schedule">Schedule</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#register">Register</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow">Campus Life & Opportunities</p>
+            <h1>Shape your college journey through vibrant events.</h1>
+            <p class="hero-text">
+              Discover upcoming workshops, competitions, cultural celebrations, and student-led
+              experiences designed to inspire learning, creativity, and leadership.
+            </p>
+            <div class="hero-actions">
+              <a href="#events" class="btn btn-primary">Explore Events</a>
+              <a href="#register" class="btn btn-secondary">Register Now</a>
+            </div>
+            <ul class="hero-stats" aria-label="Portal statistics">
+              <li><strong>25+</strong><span>Annual Events</span></li>
+              <li><strong>8</strong><span>Event Categories</span></li>
+              <li><strong>1200+</strong><span>Student Participants</span></li>
+            </ul>
+          </div>
+          <div class="hero-visual" aria-label="Featured event visual card">
+            <div class="featured-card">
+              <div class="featured-badge">Featured</div>
+              <h2>Tech Fest 2026</h2>
+              <p>Innovation, coding, robotics, and startup showcases.</p>
+              <div class="featured-meta">
+                <span>18 Oct 2026</span>
+                <span>Main Auditorium</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="info-strip">
+        <div class="container info-grid">
+          <article>
+            <h3>Upcoming Highlights</h3>
+            <p>Stay informed about technical competitions, cultural programs, and learning events.</p>
+          </article>
+          <article>
+            <h3>Easy Registration</h3>
+            <p>Register for events in a few quick steps with proper validation and confirmation.</p>
+          </article>
+          <article>
+            <h3>Campus Community</h3>
+            <p>Connect with peers, participate in events, and build your profile beyond the classroom.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="events">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Event Directory</p>
+            <h2>Explore College Events</h2>
+          </div>
+
+          <div class="filters" aria-label="Event filters">
+            <label for="event-search" class="sr-only">Search event</label>
+            <input id="event-search" type="search" placeholder="Search by event name" />
+            <label for="category-filter" class="sr-only">Filter by category</label>
+            <select id="category-filter">
+              <option value="all">All Categories</option>
+            </select>
+          </div>
+
+          <div class="events-layout">
+            <div id="event-list" class="event-list" aria-live="polite"></div>
+            <aside id="event-detail" class="event-detail" aria-live="polite">
+              <div class="detail-placeholder">
+                <h3>Select an event</h3>
+                <p>Choose an event card to view its date, venue, category, and registration details.</p>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt-section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Most Sought After</p>
+            <h2>Featured Event Categories</h2>
+          </div>
+          <div class="category-grid">
+            <article class="category-card">
+              <span class="category-icon">💻</span>
+              <h3>Technical</h3>
+              <p>Hackathons, coding contests, robotics challenges, and innovation showcases.</p>
+            </article>
+            <article class="category-card">
+              <span class="category-icon">🎭</span>
+              <h3>Cultural</h3>
+              <p>Dance, theater, music nights, and cultural celebrations that unite campus life.</p>
+            </article>
+            <article class="category-card">
+              <span class="category-icon">🏆</span>
+              <h3>Sports</h3>
+              <p>Inter-college tournaments, fitness drives, and thrilling sport fixtures.</p>
+            </article>
+            <article class="category-card">
+              <span class="category-icon">🛠️</span>
+              <h3>Workshops</h3>
+              <p>Hands-on sessions and skill-development experiences guided by industry experts.</p>
+            </article>
+            <article class="category-card">
+              <span class="category-icon">📚</span>
+              <h3>Seminars</h3>
+              <p>Learning sessions featuring thought leaders, faculty mentors, and guest speakers.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="schedule">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Timetable Overview</p>
+            <h2>Event Schedule</h2>
+          </div>
+
+          <div class="table-wrapper">
+            <table class="schedule-table">
+              <thead>
+                <tr>
+                  <th>Day</th>
+                  <th>Event</th>
+                  <th>Category</th>
+                  <th>Time</th>
+                  <th>Venue</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Monday</td>
+                  <td>Hackathon Sprint</td>
+                  <td>Technical</td>
+                  <td>10:00 AM</td>
+                  <td>Innovation Lab</td>
+                </tr>
+                <tr>
+                  <td>Tuesday</td>
+                  <td>Campus Talent Night</td>
+                  <td>Cultural</td>
+                  <td>6:30 PM</td>
+                  <td>Open Air Theatre</td>
+                </tr>
+                <tr>
+                  <td>Wednesday</td>
+                  <td>Inter-Department Sports League</td>
+                  <td>Sports</td>
+                  <td>4:00 PM</td>
+                  <td>Sports Complex</td>
+                </tr>
+                <tr>
+                  <td>Thursday</td>
+                  <td>AI Workshop for Students</td>
+                  <td>Workshops</td>
+                  <td>11:00 AM</td>
+                  <td>Seminar Hall</td>
+                </tr>
+                <tr>
+                  <td>Friday</td>
+                  <td>Startup & Career Seminar</td>
+                  <td>Seminars</td>
+                  <td>1:30 PM</td>
+                  <td>Conference Room</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt-section" id="gallery">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Visual Memories</p>
+            <h2>Event Gallery</h2>
+          </div>
+          <div class="gallery-grid">
+            <figure class="gallery-item">
+              <img
+                src="assets/gallery-workshop.svg"
+                alt="Students collaborating during a college workshop"
+              />
+            </figure>
+            <figure class="gallery-item">
+              <img
+                src="assets/gallery-culture.svg"
+                alt="College cultural fest stage performance"
+              />
+            </figure>
+            <figure class="gallery-item">
+              <img
+                src="assets/gallery-sports.svg"
+                alt="Students participating in a sports event"
+              />
+            </figure>
+            <figure class="gallery-item">
+              <img
+                src="assets/gallery-seminar.svg"
+                alt="Seminar session with students and faculty"
+              />
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="register">
+        <div class="container register-wrap">
+          <div class="register-copy">
+            <p class="eyebrow">Student Participation</p>
+            <h2>Register for your next event</h2>
+            <p>
+              Reserve your seat for an exciting event and become part of the active campus community.
+            </p>
+          </div>
+
+          <form id="registration-form" novalidate>
+            <div class="form-grid">
+              <div class="field-group">
+                <label for="student-name">Full Name</label>
+                <input id="student-name" name="studentName" type="text" placeholder="Enter your full name" />
+                <small class="error-message" data-error-for="studentName"></small>
+              </div>
+
+              <div class="field-group">
+                <label for="student-email">Email Address</label>
+                <input id="student-email" name="studentEmail" type="email" placeholder="name@example.com" />
+                <small class="error-message" data-error-for="studentEmail"></small>
+              </div>
+
+              <div class="field-group">
+                <label for="student-phone">Phone Number</label>
+                <input id="student-phone" name="studentPhone" type="tel" placeholder="9876543210" />
+                <small class="error-message" data-error-for="studentPhone"></small>
+              </div>
+
+              <div class="field-group">
+                <label for="event-select">Event</label>
+                <select id="event-select" name="eventSelect">
+                  <option value="">Select Event</option>
+                </select>
+                <small class="error-message" data-error-for="eventSelect"></small>
+              </div>
+            </div>
+
+            <div class="field-group radio-group">
+              <span>Participation Type</span>
+              <div class="option-list">
+                <label><input type="radio" name="participationType" value="Participant" /> Participant</label>
+                <label><input type="radio" name="participationType" value="Volunteer" /> Volunteer</label>
+                <label><input type="radio" name="participationType" value="Coordinator" /> Coordinator</label>
+              </div>
+              <small class="error-message" data-error-for="participationType"></small>
+            </div>
+
+            <div class="field-group checkbox-group">
+              <label><input type="checkbox" name="agree" value="yes" /> I agree to attend the selected event and follow campus guidelines.</label>
+              <small class="error-message" data-error-for="agree"></small>
+            </div>
+
+            <div class="form-actions">
+              <button type="submit" class="btn btn-primary">Submit Registration</button>
+              <button type="reset" class="btn btn-secondary reset-btn">Reset</button>
+            </div>
+
+            <div id="form-message" class="form-message" aria-live="polite"></div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>© 2026 College Event Management Portal</p>
+        <nav aria-label="Footer navigation">
+          <a href="#home">Home</a>
+          <a href="#events">Events</a>
+          <a href="#register">Register</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>

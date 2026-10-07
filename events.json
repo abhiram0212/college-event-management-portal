@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Hackathon Sprint 2026",
+    "category": "Technical",
+    "date": "2026-10-18",
+    "time": "10:00 AM - 04:00 PM",
+    "venue": "Innovation Lab",
+    "description": "A coding challenge focused on problem solving, teamwork, and building innovative solutions for campus and social impact.",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "name": "Cultural Night Fiesta",
+    "category": "Cultural",
+    "date": "2026-10-22",
+    "time": "06:30 PM - 09:30 PM",
+    "venue": "Open Air Theatre",
+    "description": "A vibrant evening of dance, music, drama, and creative performances celebrating student talent and cultural diversity.",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "name": "Inter-Department Sports League",
+    "category": "Sports",
+    "date": "2026-10-25",
+    "time": "04:00 PM - 08:00 PM",
+    "venue": "Sports Complex",
+    "description": "A competitive sports event featuring cricket, volleyball, and athletics matches among departmental teams.",
+    "featured": false
+  },
+  {
+    "id": 4,
+    "name": "AI & Data Science Workshop",
+    "category": "Workshops",
+    "date": "2026-10-28",
+    "time": "11:00 AM - 01:00 PM",
+    "venue": "Seminar Hall",
+    "description": "A practical workshop introducing students to AI concepts, data-driven decision making, and real-world use cases.",
+    "featured": true
+  },
+  {
+    "id": 5,
+    "name": "Startup & Career Seminar",
+    "category": "Seminars",
+    "date": "2026-10-30",
+    "time": "01:30 PM - 03:30 PM",
+    "venue": "Conference Room",
+    "description": "An interactive seminar on career planning, entrepreneurship, and how students can build future-ready skills.",
+    "featured": false
+  },
+  {
+    "id": 6,
+    "name": "Innovation Expo",
+    "category": "Technical",
+    "date": "2026-11-02",
+    "time": "09:30 AM - 02:00 PM",
+    "venue": "Main Auditorium",
+    "description": "A showcase of student prototypes, research projects, and creative tech ideas with industry mentorship.",
+    "featured": true
+  }
+]
